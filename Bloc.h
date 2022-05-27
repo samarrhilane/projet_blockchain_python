@@ -13,7 +13,7 @@ namespace py = pybind11;
 //
 // bloc.h  version 1.3
 //
-// projet blockchain M2IF 2018-2019-2020-2021
+// projet blockchain M2IF 2018-2019-2020-2021- 2022
 //
 
 #define KEY_SIZE 64 // taille de la chaine hexadecimape de la cle privee
