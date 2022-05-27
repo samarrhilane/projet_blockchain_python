@@ -3,6 +3,7 @@
 #include <stdexcept>
 #include "micro-ecc/uECC.h"
 #include "micro-ecc/uECC_vli.h"
+#include "sha1/sha1.hpp"
 
 
 
