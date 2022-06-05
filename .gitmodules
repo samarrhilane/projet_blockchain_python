@@ -13,7 +13,7 @@
 	url = https://github.com/samarrhilane/Signature_component/sha256
 [submodule "Signature_component/sha1"]
         path = Signature_component/sha1
-        url = https://github.com/samarrhilane/sha1
+        url = https://github.com/samarrhilane/Signature_component/sha1
 [submodule "Signature_component/micro-ecc"]
         path = Signature_component/micro-ecc
         url  = https://github.com/jluuM2/micro-ecc 
