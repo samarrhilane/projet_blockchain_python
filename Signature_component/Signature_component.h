@@ -17,8 +17,8 @@ using namespace std;
 
 class Signature {
 public:
-    string Message_Signature(string data, string private_key);
-    string Signature_validation(string data, string public_key, string signature);
+    string Message_Signature(string message, string private_key);
+    string Signature_validation(string message, string public_key, string signature);
 
 private:
     uint8_t* hex_str_to_uint8(const char* string);
