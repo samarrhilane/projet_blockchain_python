@@ -1,5 +1,7 @@
 # projet_blockchain_python
 
+Here we will generate private and public keys, that we'll use them to create signature, and then check the validation
+
 1) Use
 - cd Signature_component
 - python3
@@ -23,3 +25,4 @@ Validate
 ```
 
 
+![valid sign](https://user-images.githubusercontent.com/29365707/172055837-8aaa2dc5-6feb-4511-926a-1f72cc9c990b.png)
