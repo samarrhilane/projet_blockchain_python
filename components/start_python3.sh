@@ -1,1 +1,1 @@
-LD_PRELOAD=./members_component.so python3
+LD_PRELOAD=./Signature_component.so ./composant_cle.so python3
