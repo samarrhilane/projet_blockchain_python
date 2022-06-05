@@ -6,6 +6,8 @@ from sys import setdlopenflags
 from ctypes import RTLD_GLOBAL
 setdlopenflags(RTLD_GLOBAL | 2)
 
+#  Signature_component.so and composant_cle.so in  ./ folder 
+
 import composant_cle
 import Signature_component
 
