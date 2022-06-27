@@ -59,7 +59,7 @@ char* Signature::binToHexString(char* out, const unsigned char* bin, size_t len)
 
 string Signature::Message_Signature(string message, string private_key) {
     uECC_Curve curve = uECC_secp256k1(); // create ECC type secp256k1 : elliptic curve used by Bitcoin
-    string dataHashed = SHA256(message); // hashing message 
+    //string dataHashed = SHA256(message); // hashing message 
     //uint8_t* hash = hex_str_to_uint8(dataHashed.c_str()); 
     //uint8_t hash[67];
     // hexStringToBin(hash, dataHashed.c_str());
@@ -82,7 +82,7 @@ string Signature::Message_Signature(string message, string private_key) {
 
 string Signature::Signature_validation(string message, string public_key, string _signature) {
     uECC_Curve curve = uECC_secp256k1();
-    string dataHashed = SHA256(message);
+    //string dataHashed = SHA256(message);
 
     uint8_t* hash = hex_str_to_uint8(dataHashed.c_str());
     uint8_t* _public = hex_str_to_uint8(public_key.c_str());
