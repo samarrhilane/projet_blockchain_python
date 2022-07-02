@@ -14,6 +14,7 @@ Here we will generate private and public keys, that we'll use them to create sig
 ```
 import composant_cle
 import Signature_component
+from hashlib import sha256
 
 cle=composant_cle.Cle()
 sign=Signature_component.Signature()
@@ -22,9 +23,11 @@ cle.initialize("4b8e29b9b0dddd58a709edba7d6df6c07ebdaf5653e325114bc5318c238f87f0
 Private_key=cle.getPrivateKey()
 Public_key=cle.getPublicKey()
 
-message="hello"
-MySignature=sign.Message_Signature(message, Private_key)
-Validate=sign.Signature_validation(message, Public_key, MySignature)
+message=b"hello"
+hash=sha256(message)
+hm=hash.hexdigest()
+MySignature=sign.Message_Signature(hm, Private_key)
+Validate=sign.Signature_validation(hm, Public_key, MySignature)
 Validate
 
 ```
