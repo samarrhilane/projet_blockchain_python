@@ -1,19 +1,19 @@
 [submodule "pybind11"]
-	path = pybind11
-	url = https://github.com/pybind/pybind11
-	branch = stable
+        path = pybind11
+        url = https://github.com/pybind/pybind11
+        branch = stable
 [submodule "json"]
-	path = json
-	url = https://github.com/nlohmann/json.git
+        path = json
+        url = https://github.com/nlohmann/json.git
 [submodule "pybind11_json"]
-	path = pybind11_json
-	url = https://github.com/pybind/pybind11_json.git
+        path = pybind11_json
+        url = https://github.com/pybind/pybind11_json.git
 [submodule "Signature_component/sha256"]
-	path = Signature_component/sha256
-	url = https://github.com/samarrhilane/Signature_component/sha256
+        path = Signature_component/sha256
+        url = https://github.com/samarrhilane/Signature_component/sha256
 [submodule "Signature_component/sha1"]
         path = Signature_component/sha1
         url = https://github.com/samarrhilane/Signature_component/sha1
 [submodule "Signature_component/micro-ecc"]
         path = Signature_component/micro-ecc
-        url  = https://github.com/jluuM2/micro-ecc 
+        url  = https://github.com/jluuM2/micro-ecc
