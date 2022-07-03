@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cstring>
 
+using std::cout; using std::endl;
 class component_Hash {
     public:
         component_Hash() {}
