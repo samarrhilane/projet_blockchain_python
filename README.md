@@ -14,6 +14,7 @@ Here we will generate private and public keys, that we'll use them to create sig
 ```
 import composant_cle
 import Signature_component
+import sha256_component
 from hashlib import sha256
 
 cle=composant_cle.Cle()
